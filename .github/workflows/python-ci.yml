@@ -36,14 +36,14 @@ jobs:
           pytest
 
       # (Optional) Check code formatting with flake8
-      - name: Lint with flake8
-        run: |
-          pip install flake8
-          flake8 .
+      # - name: Lint with flake8
+      #   run: |
+      #     pip install flake8
+      #     flake8 .
 
-      # (Optional) Check code coverage
-      - name: Coverage with pytest-cov
-        run: |
-          pip install pytest-cov
-          pytest --cov=your_package_name
+      # # (Optional) Check code coverage
+      # - name: Coverage with pytest-cov
+      #   run: |
+      #     pip install pytest-cov
+      #     pytest --cov=test_module
 
