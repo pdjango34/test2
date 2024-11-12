@@ -5,14 +5,20 @@ def test(*args):
     if True:
         print("jdjfhkhds")
 class MathOperations:
+    def subtract(a, b):
+        """Returns the difference between two numbers."""
+        return a - b
+
     def main_operation(self, num1: int, num2: int) -> dict:
         """Performs multiple operations on two numbers and returns the results in a dictionary."""
 
+        def inner_inner_demo():
+            print("run inner inner")
+        
         def demo():
             def run_task():
                 print("run-task")
-                def inner_inner_demo():
-                    print("run inner inner")
+
 
         def add(a, b):
             """Returns the sum of two numbers."""
@@ -22,9 +28,6 @@ class MathOperations:
             """Returns the product of two numbers."""
             return a * b
 
-        def subtract(a, b):
-            """Returns the difference between two numbers."""
-            return a - b
 
         # Call nested functions and store results
         results = {
