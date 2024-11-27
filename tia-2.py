@@ -1,0 +1,1 @@
+print("tia-2 from tia-2")
